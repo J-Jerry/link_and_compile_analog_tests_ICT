@@ -8,7 +8,7 @@ echo "--------------------------------------------------------------------------
 echo ""
 echo "          IMPORTANT: Be sure that this script is into board directory         "
 echo "                                                                              "
-echo "             This script DOES NOT work with projects versioned                "
+echo "             This script DOES NOT work with versioned projects                "
 echo "------------------------------------------------------------------------------"
 echo ""
 echo ""
@@ -31,7 +31,7 @@ rm list > /dev/null 2>&1                    #delete list file that was created w
 	let y=y+1
 
 for dir in $y%*; do
-	echo "$dir" >> list             #generate list with all tests that start with 1%, 2% ....n%
+	echo "$dir" >> list             #generate list with all tests that begin with 1%, 2% ....n%
 done
 
 #creating files and compile them

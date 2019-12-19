@@ -5,4 +5,4 @@ Is necessary an Agilent licence installed on your PC to execute it
 
 Before that you execute it, place script file into your board directory
 
-
+This script DOES NOT work with versioned projects
